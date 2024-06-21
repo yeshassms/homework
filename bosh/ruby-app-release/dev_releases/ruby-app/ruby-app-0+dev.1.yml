@@ -1,0 +1,23 @@
+name: ruby-app
+version: 0+dev.1
+commit_hash: 4cd8397
+uncommitted_changes: true
+jobs:
+- name: rubyweb
+  version: 86ce8a80d70f064a52bddd358c6405adad733698fdb6cbc64265e59f9fdb2732
+  fingerprint: 86ce8a80d70f064a52bddd358c6405adad733698fdb6cbc64265e59f9fdb2732
+  sha1: sha256:b9b1aa16b3b555ebac50add9a90cc8a9e7148e72398e3dfbb03780ff5e97951e
+  packages:
+  - ruby-2.7
+packages:
+- name: ruby-2.7
+  version: efa5b03ea4036a17c9b38e9bf36322ece6624879f8f64437bc8d1fc68ca87de3
+  fingerprint: efa5b03ea4036a17c9b38e9bf36322ece6624879f8f64437bc8d1fc68ca87de3
+  sha1: sha256:f78a028d7f79581e9b54d35270074345c65bff5bca932bf1ee09696d1ad63ef5
+  dependencies: []
+- name: rubyweb
+  version: c83678f978ddcb920e2c265d4c9f4f9044c79e75331b059074dda75d0a82c9a6
+  fingerprint: c83678f978ddcb920e2c265d4c9f4f9044c79e75331b059074dda75d0a82c9a6
+  sha1: sha256:05255d94eefe8f4b0c802108d427c6205c1311d7af276374833049dbfb1f359b
+  dependencies:
+  - ruby-2.7
